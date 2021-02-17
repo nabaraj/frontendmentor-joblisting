@@ -3,7 +3,8 @@ $theme-colors: (
   "lightGrayishCyan": hsl(180, 52%, 96%),
   "lightGrayishCyanFilterTablets": hsl(180, 31%, 95%),
   "darkGrayishCyan": hsl(180, 8%, 52%),
-  "veryDarkGrayishCyan": hsl(180, 14%, 20%)
+  "veryDarkGrayishCyan": hsl(180, 14%, 20%),
+  "headerBg":#5da5a4
 );
 @import "../node_modules/bootstrap/scss/bootstrap";
 body{
@@ -13,7 +14,7 @@ body{
   
 }
 #header{
-  background:var(--veryDarkGrayishCyan) url(./images/bg-header-desktop.svg) 0 0 no-repeat;
+  background:var(--headerBg) url(./images/bg-header-desktop.svg) 0 0 no-repeat;
   background-size: cover;
   height: 155px;
   
