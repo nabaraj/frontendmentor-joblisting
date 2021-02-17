@@ -4,7 +4,7 @@ export default function JobList({ jobs, filter }) {
     return val.join(' ');
   }
   return (
-    <div className="container jobContainer mt-5 pt-3">
+    <div className="container jobContainer my-5 pt-4 pb-2">
       {jobs.map(item => {
         return (
           <div 
