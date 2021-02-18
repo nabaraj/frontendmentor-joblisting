@@ -14,7 +14,7 @@ export default function JobList({ jobs, filter }) {
             >
             <div className="pr-2 col-sm-5 d-flex flex-wrap">
               <div className="mr-3 logoImage">
-                <img src={item.logo} />
+                <img src={item.logo} alt={item.company}/>
               </div>
               <div className="jobDetails">
                 <div className="mb-2 font-13">
